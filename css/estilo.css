@@ -1,0 +1,69 @@
+body{background-color: #FFEBC1;}
+.imgyt{width: 10vw; position: fixed; left: 89%;}
+header{margin: 10px; padding:auto;} 
+h1{text-align: center; color: #A64B2A; text-decoration: underline;font-size: 3.1rem;}
+h2{color: #A64B2A;}
+header div{font-size: large;}
+
+nav{border: 2px solid black; display: flex; justify-content: space-around; background-color: #8E3200; height: 4vh; font-size: large; overflow:auto;}
+nav div{ width: 20%; height: 4vh; text-align: center;display: flex; justify-content: space-around; }
+nav div:hover{background-color: black;}
+.nav1{color: #FFEBC1}
+.nav2{color: #FFEBC1}
+.nav3{color: #FFEBC1}
+.nav4{color: #FFEBC1}
+.nav5{color: #FFEBC1}
+
+.contenedorcontenido{display: flex; flex-wrap: wrap; justify-content: space-between; padding: 1%;}
+
+section{width: 70%;}
+.imagencabure{width: 60%;}
+.ingredientes{float: right; font-size: large;}
+.pasos{font-size: large;}
+
+aside{padding: 5px; width:27%;}
+.mapa{width: 90%; height: 22rem;transition: 0.5s; object-fit: cover;}
+.mapa:hover{transform: scale(1.2);}
+.youtube{width: 90%; height: 22rem;transition: 0.5s; object-fit: cover;}
+.youtube:hover{transform: scale(1.2);}
+
+.container div{margin: 0.75%; padding: 1%;}
+.cardalfajor{background-color: #A64B2A; border-radius: 10px;}
+.cardbizcochuelo{background-color: #A64B2A; border-radius: 10px;}
+.cardchipa{background-color: #A64B2A; border-radius: 10px;}
+.cardtortafrita{background-color: #A64B2A; border-radius: 10px;}
+
+footer{background-color: #8E3200; display:flex; width: 998w;}
+footer div{padding: 1rem; display: flex;}
+.imgfb{width: 4rem; height: 4rem;}
+.imgfb:hover{transform: scale(1.15);}
+.imgig{width: 4rem; height: 4rem;}
+.imgig:hover{transform: scale(1.15);}
+.imgwpp{width: 4rem; height: 4rem;}
+.imgwpp:hover{transform: scale(1.15);}
+.botoncontacto{width: 100px;}
+.botoncontacto:hover{transform: scale(1.15);}
+
+
+.formulario{display: block; margin: 20px; text-decoration: underline;flex-wrap: wrap;}
+.formulario div{padding: 0.25%;}
+.boton:hover{background-color:#8E3200; color: black;}
+.enlaceinicio:hover{font-size: large;}
+
+@media (max-width: 991px) {
+    body {background-color: burlywood;}
+}
+
+@media (min-width:768px){
+    .imgyt{display: none;}
+}
+
+@media (max-width:576px){
+    .titulo,.subt {color: white;}
+}
+
+@media (max-width:404px){
+    .imgfb{width: 3.5rem;}
+    .imgig{width: 3.5rem;}
+    .imgwpp{width: 3.5rem;}
+}
